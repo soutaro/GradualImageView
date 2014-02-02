@@ -1,0 +1,7 @@
+pod "STMGradualImageView", :path => "../STMGradualImageView.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
