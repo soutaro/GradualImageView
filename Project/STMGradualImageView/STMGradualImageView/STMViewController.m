@@ -39,4 +39,8 @@
     self.gradualImageView.image = [UIImage imageNamed:@"Image2.png"];
 }
 
+- (IBAction)noImageButtonTap:(id)sender {
+    self.gradualImageView.image = nil;
+}
+
 @end
