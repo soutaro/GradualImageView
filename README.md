@@ -1,7 +1,6 @@
 # STMGradualImageView
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/STMGradualImageView/badge.png)](http://cocoadocs.org/docsets/STMGradualImageView)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/STMGradualImageView/badge.png)](http://cocoadocs.org/docsets/STMGradualImageView)
+[![Build Status](https://travis-ci.org/soutaro/GradualImageView.png?branch=master)](https://travis-ci.org/soutaro/GradualImageView)
 
 STMGradualImageView is a UIImageView subclass which cross-fades the `image` property update.
 
