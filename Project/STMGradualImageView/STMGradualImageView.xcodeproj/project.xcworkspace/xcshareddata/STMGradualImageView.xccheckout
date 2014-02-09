@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6FDD4AD-4A71-462C-84C6-799E118ED438</string>
+	<key>IDESourceControlProjectName</key>
+	<string>STMGradualImageView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8FB79CA-FEFC-4B52-A368-A1332D04A269</key>
+		<string>https://github.com/soutaro/GradualImageView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project/STMGradualImageView/STMGradualImageView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8FB79CA-FEFC-4B52-A368-A1332D04A269</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/soutaro/GradualImageView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8FB79CA-FEFC-4B52-A368-A1332D04A269</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8FB79CA-FEFC-4B52-A368-A1332D04A269</string>
+			<key>IDESourceControlWCCName</key>
+			<string>STMGradualImageView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

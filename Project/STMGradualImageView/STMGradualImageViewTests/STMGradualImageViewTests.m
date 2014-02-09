@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "STMGradualImageView.h"
 
 @interface STMGradualImageViewTests : XCTestCase
 
@@ -26,9 +27,28 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testImagePropertyCanBeUpdated
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    STMGradualImageView *view = [[STMGradualImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    
+    assert(view.image == nil);
+    
+    UIImage *image = [[UIImage alloc] init];
+    view.image = image;
+    
+    assert(view.image == image);
+}
+
+- (void)testCallingSettersDoesNotFail
+{
+    STMGradualImageView *view = [[STMGradualImageView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    
+    UIImage *image = [UIImage new];
+    
+    [view setImage:image];
+    [view setImage:image animated:YES];
+    [view setImage:image animated:NO];
+    [view setImage:image animatedInDuration:0.5 completion:nil];
 }
 
 @end
