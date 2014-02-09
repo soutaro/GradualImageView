@@ -1,6 +1,7 @@
 language: objective-c
 xcode_project: Project/STMGradualImageView/STMGradualImageView.xcodeproj
 xcode_scheme: STMGradualImageView
+xcode_sdk: iphonesimulator
 # before_install:
 #   - brew update
 #   - brew install xctool
